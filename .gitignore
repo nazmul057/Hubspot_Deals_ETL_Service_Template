@@ -1,0 +1,53 @@
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Migrations (ignore all except __init__.py)
+**/migrations/*
+!**/migrations/__init__.py
+
+# Virtual environments
+/.venv/
+# or, if you use 'venv' at root:
+#/venv/
+
+# Environment files
+# /.env
+
+# DLT
+.dlt/
+*.duckdb
+*.duckdb.wal
+
+# Logs
+logs/
+*.log
+
+# Temporary
+tmp/
+temp/
+.tmp/
+*.tmp
+
+# Backup files
+*.bak
+*.backup
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# SQLite (if created by mistake)
+/db.sqlite3
+/db.sqlite3-journal
+/db.sqlite3-shm
+/db.sqlite3-wal
+
+# Optional: tool caches & coverage
+.pytest_cache/
+.mypy_cache/
+# .ruff_cache/
+.coverage
+#htmlcov/
