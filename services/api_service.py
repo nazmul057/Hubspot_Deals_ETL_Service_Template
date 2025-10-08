@@ -91,7 +91,8 @@ class APIService:
                     params[key] = value
             
             # TODO: Replace with appropriate Hubspot_Deals API endpoint
-            url = f"{self.base_url}/v1/data"
+            # url = f"{self.base_url}/v1/data"
+            url = f"{self.base_url}/crm/v3/objects/deals"
             
             response = self.session.get(url, params=params, headers=headers)
             

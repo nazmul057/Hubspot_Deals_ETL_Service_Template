@@ -214,12 +214,12 @@ def create_data_source(
                     },
                 )
 
-                '''
+                
                 # TODO: Replace with appropriate Hubspot_Deals API call
                 data = api_service.get_data(
-                    access_token=access_token, limit=1, after=after,
+                    access_token=access_token, limit=20, after=after,
                 )
-                '''
+                
                 # HubSpot CRM v3 deals (cursor pagination via `after`)
                 '''
                 data = svc._request(
@@ -233,6 +233,7 @@ def create_data_source(
                     },
                 )
                 '''
+                '''
                 # svc = HubSpotAPIService()
                 data = svc.get_deals(
                     access_token=access_token,
@@ -240,6 +241,7 @@ def create_data_source(
                     limit=20,
                     after=after,
                     url="/crm/v3/objects/deals")
+                '''
 
                 page_records = 0
 
