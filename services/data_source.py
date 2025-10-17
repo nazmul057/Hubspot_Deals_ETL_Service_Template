@@ -53,7 +53,8 @@ def create_data_source(
     logger = get_logger(__name__)
     api_service = APIService(base_url="https://api.hubapi.com" , test_delay_seconds=1)
 
-    svc = HubSpotAPIService(base_url="https://api.hubapi.com")
+    # This was set up to test the hubspot url with a custom file
+    # svc = HubSpotAPIService(base_url="https://api.hubapi.com")
 
     access_token = auth_config.get("accessToken")
     if not access_token:
