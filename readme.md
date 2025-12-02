@@ -1,6 +1,6 @@
 # Hubspot_Deals Data Extraction Service
 
-A robust Flask-RESTX API service for extracting Hubspot_Deals data using DLT (Data Load Tool) and PostgreSQL. Features comprehensive Swagger documentation, Docker support, and production-ready deployment. Service built on the template provided by this repository: [Github Repository Link](https://github.com/Glynac-AI/Backend-Tools-and-assessment)
+A robust Flask-RESTX API service for extracting Hubspot_Deals data using DLT (Data Load Tool) and PostgreSQL. Features comprehensive Swagger documentation, Docker support, and production-ready deployment.
 
 ## Features
 
