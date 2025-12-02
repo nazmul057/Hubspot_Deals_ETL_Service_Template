@@ -80,7 +80,7 @@ hubspot-deals-etl
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Glynac-AI/Backend-Tools-and-assessment
+   git clone https://github.com/nazmul057/Hubspot_Deals_ETL_Service_Template.git
    cd hubspot-deals-extraction
    ```
 
